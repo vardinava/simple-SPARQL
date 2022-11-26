@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>-</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+
+        <script src="assets/bootstrap/jquery.min.js"></script>
+        <script src="assets/bootstrap/popper.min.js"></script>
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">SEMANTICS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container pt-12">
+            <div class="row">
+                <div class="col-md-10">
+                    <table id="datapertanyaan" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <!--                                Fix susunan grid       -->
+                                <th width="63">No</th>
+                                <th>DATA 1</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>SEMANTIC WEB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#datapertanyaan').DataTable();
+        });
+
+
+    </script>
+
+</html>
